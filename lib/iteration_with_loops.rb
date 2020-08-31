@@ -10,7 +10,7 @@ def find_min_in_nested_arrays(src)
         min_val = src[i][j]
       end
     end
-    min_array << min_val
+    min_array[i] = min_val
   end
   return min_array
 end
